@@ -55,7 +55,6 @@ public class trabalhofisica2bi extends JFrame {
 
             double resistorFerro = resistenciaTotal - resistorSilicio;
 
-            // Exibindo os resultados na interface
             res_silicio.setText(String.format("RS = %.2f Ω", resistorSilicio));
             res_ferro.setText(String.format("RF = %.2f Ω", resistorFerro));
         } catch (NumberFormatException ex) {
